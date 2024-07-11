@@ -1,8 +1,8 @@
 [project]
-name = "llm-bedrock-anthropic"
-version = "0.4.4"
+name = "llm-bedrock-amazon"
+version = "0.0.1"
 
-description = "LLM plugin for Anthropic's Claude on AWS Bedrock"
+description = "LLM plugin for Amazon Titan on AWS Bedrock"
 readme = "README.md"
 authors = [{name = "Sean Blakey"}, {name = "Will Sorenson"}]
 license = {text = "Apache-2.0"}
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/sblakey/llm-bedrock-anthropic"
+Homepage = "https://github.com/avoidik/llm-bedrock-amazon"
 
 [project.entry-points.llm]
-bedrock_claude = "llm_bedrock_anthropic"
+bedrock_titan = "llm_bedrock_titan"
