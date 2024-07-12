@@ -4,7 +4,7 @@ version = "0.0.1"
 
 description = "LLM plugin for Amazon Titan on AWS Bedrock"
 readme = "README.md"
-authors = [{name = "Sean Blakey"}, {name = "Will Sorenson"}]
+authors = [{name = "Sean Blakey"}, {name = "Will Sorenson"}, {name = "Viacheslav Vasilyev"}]
 license = {text = "Apache-2.0"}
 classifiers = [
     "License :: OSI Approved :: Apache Software License"
