@@ -1,8 +1,17 @@
 # llm-bedrock-amazon
 
+[![PyPI](https://img.shields.io/pypi/v/llm-bedrock-anthropic.svg)](https://pypi.org/project/llm-bedrock-amazon/)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/avoidik/llm-bedrock-amazon/blob/main/LICENSE)
+
 Plugin for [LLM](https://llm.datasette.io/) adding support for Amazon Titan Express model.
 
 ## Installation
+
+Install as LLM plugin:
+
+```terminal
+$ llm install llm-bedrock-amazon
+```
 
 Install from the GitHub repository:
 
