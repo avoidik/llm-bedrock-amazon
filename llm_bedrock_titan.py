@@ -124,7 +124,7 @@ class BedrockTitan(llm.Model):
 
     def generate_text(self, body):
         """Invoke AWS Titan Model without the streaming support."""
-        response = self. bedrock.invoke_model(
+        response = self.bedrock.invoke_model(
             accept="application/json",
             contentType="application/json",
             body=body,
